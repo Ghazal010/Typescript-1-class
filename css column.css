@@ -1,0 +1,33 @@
+.main{
+    height: 100px;
+    column-count: 4;
+    column-gap: 80px;
+    column-rule: 2px solid yellowgreen;
+    /*column-width: 200px;*/
+}
+.heading{
+    column-span: all;
+}
+table, th, td{
+    font-family: cursive;
+    border: 3px dotted yellowgreen;
+}
+table{
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+td{
+    vertical-align: middle;
+}
+th,td{
+    padding: 50px 30px 10px 20px;
+}
+caption{
+    caption-side: bottom;
+}
+table{
+   border-collapse: collapse;
+}
+tr:hover{
+    background-color: blue;
+}
